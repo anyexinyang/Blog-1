@@ -7,6 +7,7 @@
         <div class="welcome-center-container">
             <div class="outer-circle">
                 <div class="inner-circle">
+                    <img class="outer-circle" src="{{asset('image/Background.png')}}" style="width: 180px;height: 180px" alt="">
                 </div>
                 <span></span>
                 <span></span>
@@ -16,7 +17,7 @@
 
             <div class="welcome-profile-container">
                 @php
-                    $userSlogin = config('user_slogin','Coding For Fun，代码改变世界');
+                    $userSlogin = config('user_slogin','Coding For Fun，程序员');
                 @endphp
                 <p class="user-profile-slogin">{{$userSlogin}}</p>
             </div>
